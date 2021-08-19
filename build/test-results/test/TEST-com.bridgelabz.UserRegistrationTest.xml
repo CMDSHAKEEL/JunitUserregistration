@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-19T13:47:45" hostname="LAPTOP-K4FELRDJ" time="0.003">
+  <properties/>
+  <testcase name="givenValid_Email_ShouldReturn_False_Special_Character" classname="com.bridgelabz.UserRegistrationTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
