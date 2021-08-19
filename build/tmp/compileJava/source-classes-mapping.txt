@@ -4,3 +4,7 @@ com/bridgelabz/UserRegistrationJUTest.java
  com.bridgelabz.UserRegistrationJUTest
 com/bridgelabz/UserRegistrationMain.java
  com.bridgelabz.UserRegistrationMain
+com/bridgelabz/UserRegistrationEx.java
+ com.bridgelabz.UserRegistrationEx
+com/bridgelabz/UserRegistraationException.java
+ com.bridgelabz.UserRegistrationException

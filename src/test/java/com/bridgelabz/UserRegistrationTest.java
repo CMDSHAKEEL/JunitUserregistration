@@ -88,7 +88,7 @@ public class UserRegistrationTest {
     @Test
     public void givenValid_Password_ShouldReturn_True(){
         UserRegistrationJUTest userRegistration = new UserRegistrationJUTest();
-        boolean result = userRegistration.validPassword("cmd@123");
+        boolean result = userRegistration.validPassword("Cmd@shakeel1");
         Assert.assertTrue(result);
     }
     @Test
@@ -97,5 +97,10 @@ public class UserRegistrationTest {
         boolean result = userRegistration.validPassword("Cmd$$786");
         Assert.assertFalse(result);
     }
-     
+    @Test
+    public void givenValid_Password_ShouldReturn_False_Should_8_Character(){
+        UserRegistrationJUTest userRegistration = new UserRegistrationJUTest();
+        boolean result = userRegistration.validPassword("cmd@3");
+        Assert.assertFalse(result);
+    }
 }
